@@ -1,0 +1,10 @@
+LB CONTROL CENTER
+
+1. Cria um repositório público novo no GitHub, por exemplo lb-control-center.
+2. Carrega os ficheiros index.html, icon.svg, manifest.webmanifest e sw.js na raiz do repositório.
+3. Em Settings > Pages, publica a partir de main / root.
+4. Abre o endereço indicado pelo GitHub Pages no Android e usa «Adicionar ao ecrã inicial».
+
+O painel não modifica a base de dados; abre os serviços oficiais em separadores separados.
+A monitorização consulta apenas a API pública do GitHub. Não verifica a saúde da aplicação nem o estado interno do Firebase.
+A ligação de edição pressupõe o ramo main; se usares outro ramo, abre o repositório e escolhe o ramo correto.
